@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const Link = (props) => {
 
-    const { href } = props;
+    const { href, title } = props;
 
     const [ classHover, setClassHover ] = useState('')
 
@@ -17,12 +17,12 @@ const Link = (props) => {
 
 
     return (
-        <a href={href} 
+        <a href={href || '#'}
             className={"link " + classHover} 
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            Home
+            {title}
         </a>
     )
 }

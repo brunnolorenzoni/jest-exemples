@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header>
 
-            <Link href="/contacts" />
+            <Link title="Contacts" href="/contacts" />
 
         </header>
         

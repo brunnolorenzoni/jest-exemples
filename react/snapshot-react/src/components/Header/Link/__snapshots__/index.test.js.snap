@@ -1,34 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Link changes the class when hovered 1`] = `
+exports[`changes the class when hovered 1`] = `
 <a
   className="link "
   href="/contacts"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
->
-  Home
-</a>
+/>
 `;
 
-exports[`Link changes the class when hovered 2`] = `
+exports[`changes the class when hovered 2`] = `
 <a
   className="link hover"
   href="/contacts"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
->
-  Home
-</a>
+/>
 `;
 
-exports[`Link changes the class when hovered 3`] = `
+exports[`changes the class when hovered 3`] = `
 <a
   className="link "
   href="/contacts"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
->
-  Home
-</a>
+/>
+`;
+
+exports[`renders as an anchor when no page is set 1`] = `
+<a
+  className="link "
+  href="#"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+/>
+`;
+
+exports[`renders correctly 1`] = `
+<a
+  className="link "
+  href="/contacts"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+/>
 `;
